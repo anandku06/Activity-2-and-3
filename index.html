@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Task</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-green-600 text-white p-6 rounded-t-lg">
+    <div class="text-center">
+      <h1 class="text-2xl font-bold mb-2">Welcome to Your Website Task</h1>
+      <nav class="space-x-6">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#" class="hover:underline">About</a>
+        <a href="#" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="relative flex-1">
+    <!-- About CSS Card (Top Left) -->
+    <div class="absolute top-8 left-8 bg-white shadow-md rounded-lg p-6 w-80">
+      <h2 class="text-green-600 font-semibold text-lg mb-2">About CSS</h2>
+      <p class="text-gray-700">
+        Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.
+      </p>
+    </div>
+
+    <!-- Box Model Card (Top Right) -->
+    <div class="absolute top-8 right-8 bg-white shadow-md rounded-lg p-6 w-80">
+      <h2 class="text-green-600 font-semibold text-lg mb-2">Box Model</h2>
+      <p class="text-gray-700">
+        The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.
+      </p>
+    </div>
+
+    <!-- Responsive Design Card (Bottom Left) -->
+    <div class="absolute bottom-20 left-8 bg-white shadow-md rounded-lg p-6 w-80">
+      <h2 class="text-green-600 font-semibold text-lg mb-2">Responsive Design</h2>
+      <p class="text-gray-700">
+        Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 rounded-b-lg">
+    <p>Created by Anand | Follow us on 
+      <a href="#" class="text-green-400 hover:underline">Instagram</a> |
+      <a href="#" class="text-green-400 hover:underline">Twitter</a> |
+      <a href="#" class="text-green-400 hover:underline">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
